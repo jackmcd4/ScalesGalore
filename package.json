@@ -3,8 +3,7 @@
   "dependencies": {
     "backbone": "~1.1.2",
     "jquery": "~2.1.1",
-    "music-parser": "^0.5.1",
-    "note-pitch": "^0.6.0",
+    "requirejs": "^2.1.18",
     "timbre": "^14.11.25",
     "underscore": "~1.7.0"
   },
