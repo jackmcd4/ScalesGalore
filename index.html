@@ -1,53 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='SightSing'>
 <head>
     <script src="node_modules/requirejs/require.js"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/underscore/underscore-min.js"></script>
-    <script src="app/pitch.js"></script>
     <script src="node_modules/timbre/timbre.dev.js"></script>
     <script src="node_modules/MUSIC/index.js"></script>
+    <script src="app/pitch.js"></script>
     <link rel="stylesheet" href="styles/stylesheet.css">
+    <meta charset="utf-8" />
+    <title>SightSing</title>
 </head>
 <body>
     <button class='play'>Chromatic!</button>
 <nav id="primary_nav_wrap">
 <ul>
   <li class="current-menu-item"><a href="#">Home</a></li>
-  <li><a href="#">Major Scales (#)</a>
+  <li><a href="#">Major Scales</a>
     <ul>
-      <li><a href="#">A</a></li>
-      <li><a href="#">A#</a></li>
-      <li><a href="#">B</a></li>
-      <li><a href="#">C</a></li>
-      <li><a href="#">C#</a></li>
-      <li><a href="#">D</a></li>
-      <li><a href="#">D#</a></li>
-      <li><a href="#">E</a></li>
-      <li><a href="#">F</a></li>
-      <li><a href="#">F#</a></li>
-      <li><a href="#">G</a></li>
-      <li><a href="#">G#</a></li>
+      <li><a ng-href="#">A</a></li>
+      <li><a ng-href="#">A#/Bb</a></li>
+      <li><a ng-href="#">B</a></li>
+      <li><a ng-href="#">C</a></li>
+      <li><a ng-href="#">C#/Db</a></li>
+      <li><a ng-href="#">D</a></li>
+      <li><a ng-href="#">D#/Eb</a></li>
+      <li><a ng-href="#">E</a></li>
+      <li><a ng-href="#">F</a></li>
+      <li><a ng-href="#">F#/Gb</a></li>
+      <li><a ng-href="#">G</a></li>
+      <li><a ng-href="#">G#/Ab</a></li>
     </ul>
   </li>
-  <li><a href="#">Major Scales (b)</a>
-    <ul>
-      <li><a href="#">A</a></li>
-      <li><a href="#">Bb</a></li>
-      <li><a href="#">B</a></li>
-      <li><a href="#">C</a></li>
-      <li><a href="#">Db</a></li>
-      <li><a href="#">D</a></li>
-      <li><a href="#">Eb</a></li>
-      <li><a href="#">E</a></li>
-      <li><a href="#">F</a></li>
-      <li><a href="#">Gb</a></li>
-      <li><a href="#">G</a></li>
-      <li><a href="#">Ab</a></li>
+  <li><a href="#">Minor Scales</a>
+     <ul>
+      <li><a ng-href="#">A</a></li>
+      <li><a ng-href="#">A#/Bb</a></li>
+      <li><a ng-href="#">B</a></li>
+      <li><a ng-href="#">C</a></li>
+      <li><a ng-href="#">C#/Db</a></li>
+      <li><a ng-href="#">D</a></li>
+      <li><a ng-href="#">D#/Eb</a></li>
+      <li><a ng-href="#">E</a></li>
+      <li><a ng-href="#">F</a></li>
+      <li><a ng-href="#">F#/Gb</a></li>
+      <li><a ng-href="#">G</a></li>
+      <li><a ng-href="#">G#/Ab</a></li>
     </ul>
   </li>
   <li><a href="#">Contact Us</a></li>
 </ul>
 </nav>
+
+<div ng-view>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="app/Maj/majorScale.js"></script>
 </body>
 </html>
