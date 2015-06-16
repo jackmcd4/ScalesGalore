@@ -10,44 +10,123 @@
     <link rel="stylesheet" href="styles/stylesheet.css">
 </head>
 <body>
-    <button class='play'>Chromatic!</button>
 <nav id="primary_nav_wrap">
 <ul>
   <li class="current-menu-item"><a href="#">Home</a></li>
-  <li><a href="#">Major Scales (#)</a>
+  <li><a href="#">Major Scales</a>
     <ul>
-      <li><a href="#">A</a></li>
-      <li><a href="#">A#</a></li>
-      <li><a href="#">B</a></li>
-      <li><a href="#">C</a></li>
-      <li><a href="#">C#</a></li>
-      <li><a href="#">D</a></li>
-      <li><a href="#">D#</a></li>
-      <li><a href="#">E</a></li>
-      <li><a href="#">F</a></li>
-      <li><a href="#">F#</a></li>
-      <li><a href="#">G</a></li>
-      <li><a href="#">G#</a></li>
+      <li><a class="M">A</a></li>
+      <li><a class="M">A#/Bb</a></li>
+      <li><a class="M">B</a></li>
+      <li><a class="M">C</a></li>
+      <li><a class="M">C#/Db</a></li>
+      <li><a class="M">D</a></li>
+      <li><a class="M">D#/Eb</a></li>
+      <li><a class="M">E</a></li>
+      <li><a class="M">F</a></li>
+      <li><a class="M">F#/Gb</a></li>
+      <li><a class="M">G</a></li>
+      <li><a class="M">G#/Ab</a></li>
     </ul>
   </li>
-  <li><a href="#">Major Scales (b)</a>
+  <li><a href="#">Minor Scales</a>
     <ul>
-      <li><a href="#">A</a></li>
-      <li><a href="#">Bb</a></li>
-      <li><a href="#">B</a></li>
-      <li><a href="#">C</a></li>
-      <li><a href="#">Db</a></li>
-      <li><a href="#">D</a></li>
-      <li><a href="#">Eb</a></li>
-      <li><a href="#">E</a></li>
-      <li><a href="#">F</a></li>
-      <li><a href="#">Gb</a></li>
-      <li><a href="#">G</a></li>
-      <li><a href="#">Ab</a></li>
-    </ul>
+    <li><a class="Nm">Natural</a>
+        <ul>
+          <li><a class="Nm">A</a></li>
+          <li><a class="Nm">Bb</a></li>
+          <li><a class="Nm">B</a></li>
+          <li><a class="Nm">C</a></li>
+          <li><a class="Nm">Db</a></li>
+          <li><a class="Nm">D</a></li>
+          <li><a class="Nm">Eb</a></li>
+          <li><a class="Nm">E</a></li>
+          <li><a class="Nm">F</a></li>
+          <li><a class="Nm">Gb</a></li>
+          <li><a class="Nm">G</a></li>
+          <li><a class="Nm">Ab</a></li>
+        </ul>
+    </li>
+    <li><a class="Hm">Harmonic</a>
+        <ul>  
+          <li><a class="Hm">A</a></li>
+          <li><a class="Hm">A#/Bb</a></li>
+          <li><a class="Hm">B</a></li>
+          <li><a class="Hm">C</a></li>
+          <li><a class="Hm">C#/Db</a></li>
+          <li><a class="Hm">D</a></li>
+          <li><a class="Hm">D#/Eb</a></li>
+          <li><a class="Hm">E</a></li>
+          <li><a class="Hm">F</a></li>
+          <li><a class="Hm">F#/Gb</a></li>
+          <li><a class="Hm">G</a></li>
+          <li><a class="Hm">G#/Ab</a></li>
+      </ul>
   </li>
+    <li><a class="Mm">Melodic</a>
+        <ul>
+            <li><a class="Mm">A</a></li>
+            <li><a class="Mm">A#/Bb</a></li>
+            <li><a class="Mm">B</a></li>
+            <li><a class="Mm">C</a></li>
+            <li><a class="Mm">C#/Db</a></li>
+            <li><a class="Mm">D</a></li>
+            <li><a class="Mm">D#/Eb</a></li>
+            <li><a class="Mm">E</a></li>
+            <li><a class="Mm">F</a></li>
+            <li><a class="Mm">F#/Gb</a></li>
+            <li><a class="Mm">G</a></li>
+            <li><a class="Mm">G#/Ab</a></li>
+        </ul>
+    </li>
+</ul>
+  </li>
+    <li><a class="#">Pentatonic</a>
+        <ul>
+            <li><a class="Mp">Major</a>
+        <ul>
+            <li><a class="Mp">A</a></li>
+            <li><a class="Mp">A#/Bb</a></li>
+            <li><a class="Mp">B</a></li>
+            <li><a class="Mp">C</a></li>
+            <li><a class="Mp">C#/Db</a></li>
+            <li><a class="Mp">D</a></li>
+            <li><a class="Mp">D#/Eb</a></li>
+            <li><a class="Mp">E</a></li>
+            <li><a class="Mp">F</a></li>
+            <li><a class="Mp">F#/Gb</a></li>
+            <li><a class="Mp">G</a></li>
+            <li><a class="Mp">G#/Ab</a></li>
+        </ul>
+    </li>
+            <li><a class="mp">Minor</a>
+        <ul>
+            <li><a class="mp">A</a></li>
+            <li><a class="mp">A#/Bb</a></li>
+            <li><a class="mp">B</a></li>
+            <li><a class="mp">C</a></li>
+            <li><a class="mp">C#/Db</a></li>
+            <li><a class="mp">D</a></li>
+            <li><a class="mp">D#/Eb</a></li>
+            <li><a class="mp">E</a></li>
+            <li><a class="mp">F</a></li>
+            <li><a class="mp">F#/Gb</a></li>
+            <li><a class="mp">G</a></li>
+            <li><a class="mp">G#/Ab</a></li>
+        </ul>
+    </li>
+        </ul>
+    <li>
+  <li><a class="play">Chromatic</a></li>
   <li><a href="#">Contact Us</a></li>
 </ul>
 </nav>
+    
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+
 </body>
 </html>
