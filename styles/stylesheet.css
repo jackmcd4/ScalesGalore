@@ -84,3 +84,8 @@
     border-style: inset;
     border-width: 1px;
 }
+
+.vex-tabdiv {
+    display: inline;
+    z-index: -1;
+}

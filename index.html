@@ -7,9 +7,12 @@
     <script src="app/pitch.js"></script>
     <script src="node_modules/timbre/timbre.dev.js"></script>
     <script src="node_modules/MUSIC/index.js"></script>
+    <script src="node_modules/vexflow/releases/vexflow-min.js"></script>
+    <script src="node_modules/vextab/releases/vextab-div.js"></script>
     <link rel="stylesheet" href="styles/stylesheet.css">
 </head>
 <body>
+<div id="myDiv">
 <nav id="primary_nav_wrap">
 <ul>
   <li class="current-menu-item"><a href="#">Home</a></li>
@@ -116,17 +119,85 @@
         </ul>
     </li>
         </ul>
-    <li>
+    </li>
+    <li><a class="Arp">Arpeggio</a>
+        <ul>
+            <li><a class="Marp">Major Arpeggio</a>
+                <ul>
+                    <li><a class="Marp">A</a></li>
+                    <li><a class="Marp">A#/Bb</a></li>
+                    <li><a class="Marp">B</a></li>
+                    <li><a class="Marp">C</a></li>
+                    <li><a class="Marp">C#/Db</a></li>
+                    <li><a class="Marp">D</a></li>
+                    <li><a class="Marp">D#/Eb</a></li>
+                    <li><a class="Marp">E</a></li>
+                    <li><a class="Marp">F</a></li>
+                    <li><a class="Marp">F#/Gb</a></li>
+                    <li><a class="Marp">G</a></li>
+                    <li><a class="Marp">G#/Ab</a></li>
+                </ul>
+            </li>
+            <li><a class="marp">Minor Arpeggio</a>
+                <ul>
+                    <li><a class="marp">A</a></li>
+                    <li><a class="marp">A#/Bb</a></li>
+                    <li><a class="marp">B</a></li>
+                    <li><a class="marp">C</a></li>
+                    <li><a class="marp">C#/Db</a></li>
+                    <li><a class="marp">D</a></li>
+                    <li><a class="marp">D#/Eb</a></li>
+                    <li><a class="marp">E</a></li>
+                    <li><a class="marp">F</a></li>
+                    <li><a class="marp">F#/Gb</a></li>
+                    <li><a class="marp">G</a></li>
+                    <li><a class="marp">G#/Ab</a></li>
+                </ul>
+            </li>
+            <li><a class="Darp">Diminished Arpeggio</a>
+                <ul>
+                    <li><a class="Darp">A</a></li>
+                    <li><a class="Darp">A#/Bb</a></li>
+                    <li><a class="Darp">B</a></li>
+                    <li><a class="Darp">C</a></li>
+                    <li><a class="Darp">C#/Db</a></li>
+                    <li><a class="Darp">D</a></li>
+                    <li><a class="Darp">D#/Eb</a></li>
+                    <li><a class="Darp">E</a></li>
+                    <li><a class="Darp">F</a></li>
+                    <li><a class="Darp">F#/Gb</a></li>
+                    <li><a class="Darp">G</a></li>
+                    <li><a class="Darp">G#/Ab</a></li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><a href="#">Whole Tone</a>
+        <ul>
+          <li><a class="W">A</a></li>
+          <li><a class="W">A#/Bb</a></li>
+          <li><a class="W">B</a></li>
+          <li><a class="W">C</a></li>
+          <li><a class="W">C#/Db</a></li>
+          <li><a class="W">D</a></li>
+          <li><a class="W">D#/Eb</a></li>
+          <li><a class="W">E</a></li>
+          <li><a class="W">F</a></li>
+          <li><a class="W">F#/Gb</a></li>
+          <li><a class="W">G</a></li>
+          <li><a class="W">G#/Ab</a></li>
+        </ul>
+  </li>
   <li><a class="play">Chromatic</a></li>
   <li><a href="#">Contact Us</a></li>
 </ul>
 </nav>
-    
-    <hr>
-    <hr>
-    <hr>
-    <hr>
-    <hr>
-
+  </div>
+<div class="vex-tabdiv" width=680 scale=1.0 editor="false">
+    options space=20 
+      tabstave 
+      notation=true tablature=false 
+      notes C-D-E-F-G-A-B/4 C/5
+</div>
 </body>
 </html>
