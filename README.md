@@ -1,4 +1,4 @@
-# SightSing #
+# ScalesGalore #
 
 <!-- 
 > This material was originally posted [here](http://www.quora.com/What-is-Amazons-approach-to-product-development-and-product-management). It is reproduced here for posterities sake.
@@ -17,20 +17,20 @@ Once the project moves into development, the press release can be used as a touc
  -->
  
 ## Heading ##
-  > Practice your sight-singing with SightSing!
+  > Scales? Yes, Scales! Practice your scales while the computer plays them with you too!
 
 ## Sub-Heading ##
-  > Allows you to easily test your abilities to read and sing muic on the spot.
+  > Allows you to easily test your abilities to play scales or simply hear them.
 
 ## Summary ##
-  > This app makes it simple to learn how to sight-sing or improve your abilities. Simply follow along and sing the notes as they appear. If you are on target they will turn green and if not they will turn red. 
+  > This app makes it simple to practice your scale. Follow along with the notes as they play. If you are 
   Match the pitch correctly to progress!
 
 ## Problem ##
-  > It's no longer impossible to visualize your singing and ability to match pitch.
+  > It's no longer impossible to visualize scales and play along to notes, matching them pitch by pitch.
 
 ## Solution ##
-  > Using visualization you can easily track your pitch.
+  > Visualization and hearing the scales played to you add for quicker learning.
 
 ## Quote from You ##
   > "Great working environment and passionate people make all of this possible."
@@ -39,7 +39,8 @@ Once the project moves into development, the press release can be used as a touc
   > Simply go to our webpage, select a key and try to match the pitches as they appear on the music staff.
 
 ## Customer Quote ##
-  > "I love being able to see what I sing, makes practicing so much easier" - Some guy.
+  > "I love being able to see scales, makes practicing so much easier" - Som Eguy
+  > "If it wasn't for ScalesGalore, I'd never have learned the sousaphone" - Ran Domgirl
 
-## Closing and Call to Action ##
-  > Check it out! <SITENAME>
+## Want To Scale?##
+  > Check it out ScalesGalore today!

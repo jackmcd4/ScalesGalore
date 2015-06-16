@@ -21,7 +21,7 @@ $('.M').on('click', function(){
     n = n.concat('4');
     createScale(n, 'major');
     $('body').append('<div class="vex-tabdiv2" width=680 scale=1.0 editor="false">options space=20 \n tabstave \n notation=true tablature=false notes C-D-E-F-G-A-B/4 C/5</div>')
-    console.log($('vex-tabdiv1').text)
+    console.log($('vex-tabdiv1'))
     console.log($('vex-tabdiv2'))
 })
 
