@@ -12,21 +12,39 @@ var theory = require(['node_modules/MUSIC/index.js'], function (theory) {
 //     //theory is now loaded.
 // });
 
-var changeStaff = function(){
+var Staff = function(){
 $('.vex-tabdiv').text("options space=20\ntabstave\nnotation=true tablature=false\nnotes C-D-E-F-G-A-B/4 C/5");
 }();
+
+var changeStaff = function(n){
+    var vex = require(['node_modules/vextab/releases/vextab-div.js'], function (vex) {
+    //theory is now loaded.
+});
+    $('.vex-tabdiv').empty().text("options space=20\ntabstave\nnotation=true tablature=false\nnotes "+n)
+}
+
+
+// var vex = require(["node_modules/vexflow/releases/vexflow-min.js"], function(){
+
+// });
+
+//   var canvas = $("div.one div.one canvas")[0];
+//   var renderer = new Vex.Flow.Renderer(canvas, Vex.Flow.Renderer.Backends.CANVAS);
+//   var ctx = renderer.getContext();
+//   var stave = new Vex.Flow.Stave(10, 0, 500);
+//   stave.addClef("treble").setContext(ctx).draw();
+
+
 
 
 
 $('.M').on('click', function(){
-    changeStaff();
     var n = ($(this).context.innerHTML);
     if(n.length>1){
         n = n.slice(0, 2);
     }
     n = n.concat('4');
     createScale(n, 'major');
-    changeStaff();
 })
 
 $('.Nm').on('click', function(){
@@ -115,6 +133,9 @@ $('.play').on('click', function(){
 })
 
     var createScale = function(note, type){
+        if(type==='major'){
+            findKey(note, type);
+        }
         var n = Note.fromLatin(note);
         var wholeStep = Interval.fromSemitones(2);
         if(type.split(' ')[1] === 'tone'){
@@ -139,6 +160,34 @@ $('.play').on('click', function(){
         return;
     }
 
+    var findKey = function(note, type){
+
+       var note = note.split('');
+       if(note[1]==="#"){
+        note = note.join('').slice(0, 2);
+       }else{
+        note = note.join('').slice(0, 1);
+       }
+
+       var Maj = {"A#":"A#-B#-C##-D#-E#-F##-G##-A#",
+       "A":"A-B/4 C#-D-E-F#-G#-A/5",
+       "B":"B/3 C#-D#-E-F#-G#-A#-B/4",
+       "C":"C-D-E-F-G-A-B/4 C/5",
+       "C#":"C#-D#-E#-F#-G#-A#-B/4 C#/5",
+       "D":"D-E-F#-G-A-B/4 C#-D/5",
+       "D#":"",
+       "E":"",
+       "F":"F-G-A-Bb/4 C-D-E-F/5",
+       "F#":"F#-G#-A#-B#/4 C#-D#-E#-F#/5",
+       "G":"G-A-B/4 C-D-E-F#-G/5"
+   }
+       var Mmin = {}
+       var Hmin = {}
+       var Nmin = {}
+       console.log(Maj[note])
+       changeStaff(Maj[note])
+    }
+
     var playScale = function(scale){
         var freqs = T(function(count){
             return scale[count%scale.length];
@@ -151,6 +200,7 @@ $('.play').on('click', function(){
         T("interval", {interval:interval, timeout:time}, freqs, env).start();
             env.play();  
     }
+
 
 
 }
