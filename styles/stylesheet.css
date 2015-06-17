@@ -5,6 +5,7 @@
 
 #primary_nav_wrap ul
 {
+
     list-style:none;
     position:relative;
     float:left;
@@ -13,7 +14,7 @@
 }
 
 #primary_nav_wrap ul a
-{
+{   
     display:block;
     color:#333;
     text-decoration:none;
@@ -21,7 +22,7 @@
     font-size:12px;
     line-height:32px;
     padding:0 15px;
-    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+    font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 #primary_nav_wrap ul li
@@ -44,12 +45,13 @@
 
 #primary_nav_wrap ul ul
 {
+    opacity: 0.80; 
     display:none;
     position:absolute;
     top:100%;
     left:0;
     background:#fff;
-    padding:0
+    padding:0;
 }
 
 #primary_nav_wrap ul ul li

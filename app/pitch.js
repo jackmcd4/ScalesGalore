@@ -168,15 +168,16 @@ $('.play').on('click', function(){
        }else{
         note = note.join('').slice(0, 1);
        }
+       console.log(note)
 
-       var Maj = {"A#":"A#-B#-C##-D#-E#-F##-G##-A#",
+       var Maj = {"A#":"B@/4 C-D-E@-F-G-A-B@/5",
        "A":"A-B/4 C#-D-E-F#-G#-A/5",
        "B":"B/3 C#-D#-E-F#-G#-A#-B/4",
        "C":"C-D-E-F-G-A-B/4 C/5",
        "C#":"C#-D#-E#-F#-G#-A#-B/4 C#/5",
        "D":"D-E-F#-G-A-B/4 C#-D/5",
-       "D#":"",
-       "E":"",
+       "D#":"Eb-F-G-A@-B@/4 C-D-Eb/5",
+       "E":"E-F#-G#-A-B/4 C#-D#-E/5",
        "F":"F-G-A-Bb/4 C-D-E-F/5",
        "F#":"F#-G#-A#-B#/4 C#-D#-E#-F#/5",
        "G":"G-A-B/4 C-D-E-F#-G/5"
