@@ -16,20 +16,20 @@ Oh, and I also like to write press-releases in what I call "Oprah-speak" for mai
 Once the project moves into development, the press release can be used as a touchstone; a guiding light. The product team can ask themselves, "Are we building what is in the press release?" If they find they're spending time building things that aren't in the press release (overbuilding), they need to ask themselves why. This keeps product development focused on achieving the customer benefits and not building extraneous stuff that takes longer to build, takes resources to maintain, and doesn't provide real customer benefit (at least not enough to warrant inclusion in the press release).
  -->
  
-## Heading ##
-  > Scales? Yes, Scales! Practice your scales while the computer plays them with you too!
+## Scales? ##
+  > Yes, Scales! Practice your scales while the computer plays them with you too!
 
-## Sub-Heading ##
+## But why? ##
   > Allows you to easily test your abilities to play scales or simply hear them.
 
 ## Summary ##
   > This app makes it simple to practice your scale. Follow along with the notes as they play. If you are 
   Match the pitch correctly to progress!
 
-## Problem ##
+## Without Theorify ##
   > It's no longer impossible to visualize scales and play along to notes, matching them pitch by pitch.
 
-## Solution ##
+## With Theorify! ##
   > Visualization and hearing the scales played to you add for quicker learning.
 
 ## Quote from You ##
@@ -38,9 +38,9 @@ Once the project moves into development, the press release can be used as a touc
 ## How to Get Started ##
   > Simply go to our webpage, select a key and try to match the pitches as they appear on the music staff.
 
-## Customer Quote ##
+## Customer Quotes ##
   > "I love being able to see scales, makes practicing so much easier" - Som Eguy
   > "If it wasn't for ScalesGalore, I'd never have learned the sousaphone" - Ran Domgirl
 
 ## Want To Scale?##
-  > Check it out ScalesGalore today!
+  > Check it out Theorify today!
